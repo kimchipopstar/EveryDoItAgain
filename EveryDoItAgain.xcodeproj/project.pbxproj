@@ -15,6 +15,7 @@
 		4D4070B41F44C6B200D38EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4070B21F44C6B200D38EF0 /* Main.storyboard */; };
 		4D4070B61F44C6B200D38EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4070B51F44C6B200D38EF0 /* Assets.xcassets */; };
 		4D4070B91F44C6B200D38EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4070B71F44C6B200D38EF0 /* LaunchScreen.storyboard */; };
+		4D4070C21F44DA5600D38EF0 /* TodoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4070C11F44DA5600D38EF0 /* TodoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		4D4070B51F44C6B200D38EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D4070B81F44C6B200D38EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D4070BA1F44C6B200D38EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D4070C01F44DA5600D38EF0 /* TodoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoCell.h; sourceTree = "<group>"; };
+		4D4070C11F44DA5600D38EF0 /* TodoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 				4D4070AD1F44C6B200D38EF0 /* MasterViewController.m */,
 				4D4070AF1F44C6B200D38EF0 /* DetailViewController.h */,
 				4D4070B01F44C6B200D38EF0 /* DetailViewController.m */,
+				4D4070C01F44DA5600D38EF0 /* TodoCell.h */,
+				4D4070C11F44DA5600D38EF0 /* TodoCell.m */,
 				4D4070B21F44C6B200D38EF0 /* Main.storyboard */,
 				4D4070B51F44C6B200D38EF0 /* Assets.xcassets */,
 				4D4070B71F44C6B200D38EF0 /* LaunchScreen.storyboard */,
@@ -161,6 +166,7 @@
 				4D4070B11F44C6B200D38EF0 /* DetailViewController.m in Sources */,
 				4D4070AE1F44C6B200D38EF0 /* MasterViewController.m in Sources */,
 				4D4070A81F44C6B200D38EF0 /* AppDelegate.m in Sources */,
+				4D4070C21F44DA5600D38EF0 /* TodoCell.m in Sources */,
 				4D4070A51F44C6B200D38EF0 /* main.m in Sources */,
 				4D4070AB1F44C6B200D38EF0 /* EveryDoItAgain.xcdatamodeld in Sources */,
 			);
